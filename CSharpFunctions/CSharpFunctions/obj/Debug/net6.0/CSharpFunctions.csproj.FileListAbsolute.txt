@@ -1,0 +1,15 @@
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-functions\CSharpFunctions\CSharpFunctions\bin\Debug\net6.0\CSharpFunctions.exe
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-functions\CSharpFunctions\CSharpFunctions\bin\Debug\net6.0\CSharpFunctions.deps.json
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-functions\CSharpFunctions\CSharpFunctions\bin\Debug\net6.0\CSharpFunctions.runtimeconfig.json
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-functions\CSharpFunctions\CSharpFunctions\bin\Debug\net6.0\CSharpFunctions.dll
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-functions\CSharpFunctions\CSharpFunctions\bin\Debug\net6.0\CSharpFunctions.pdb
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-functions\CSharpFunctions\CSharpFunctions\obj\Debug\net6.0\CSharpFunctions.csproj.AssemblyReference.cache
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-functions\CSharpFunctions\CSharpFunctions\obj\Debug\net6.0\CSharpFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-functions\CSharpFunctions\CSharpFunctions\obj\Debug\net6.0\CSharpFunctions.AssemblyInfoInputs.cache
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-functions\CSharpFunctions\CSharpFunctions\obj\Debug\net6.0\CSharpFunctions.AssemblyInfo.cs
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-functions\CSharpFunctions\CSharpFunctions\obj\Debug\net6.0\CSharpFunctions.csproj.CoreCompileInputs.cache
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-functions\CSharpFunctions\CSharpFunctions\obj\Debug\net6.0\CSharpFunctions.dll
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-functions\CSharpFunctions\CSharpFunctions\obj\Debug\net6.0\refint\CSharpFunctions.dll
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-functions\CSharpFunctions\CSharpFunctions\obj\Debug\net6.0\CSharpFunctions.pdb
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-functions\CSharpFunctions\CSharpFunctions\obj\Debug\net6.0\CSharpFunctions.genruntimeconfig.cache
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-functions\CSharpFunctions\CSharpFunctions\obj\Debug\net6.0\ref\CSharpFunctions.dll
