@@ -3,7 +3,9 @@
 int inputLength;
 int numSquare;
 int numSum;
+int numSumSquare;
 
+//Stampiamo i numeri di un array, utilizzando la funzione Write() per ordinarli sulla console.
 static void stampaArrayInteri(int[] array)
 {
     Console.Write("[");
@@ -18,22 +20,27 @@ static void stampaArrayInteri(int[] array)
     Console.WriteLine("]");
 }
 
+//Elevare un numero al quadrato (a.k.a. moltiplicarlo per sé stesso).
 static int Quadrato(int val)
 {
     int squaredVal = val * val;
     return squaredVal;
 }
 
+//Elevare gli elementi di un array al quadrato, con la funzione creata in precedenza.
+//Le operazioni vengono fatte all'interno di un array di supporto per lasciare immutato l'array originale.
 static int[] elevaArrayAlQuadrato(int[] array)
 {
     int[] tempArray = (int[])array.Clone();
     for(int i=0; i<tempArray.Length; i++)
     {
-        tempArray[i] = tempArray[i] * tempArray[i];
+        tempArray[i] = Quadrato(tempArray[i]);
     }
 
     return tempArray;
 }
+
+//Somma degli elementi di un array.
 
 static int sommaElementiArray(int[] array)
 {
@@ -45,6 +52,7 @@ static int sommaElementiArray(int[] array)
     return tempSum;
 }
 
+//Utilizza una variabile di supporto per compilare l'array specificato dall'utente.
 static void compileArray(int[] array)
 {
     int tempNum;
@@ -60,6 +68,7 @@ static void compileArray(int[] array)
     }
 }
 
+//Chiediamo all'utente di creare un'array, poi ne si crea una copia per elevare gli elementi del secondo array al quadrato.
 do
 {
     Console.WriteLine("Inserisci la lunghezza dell'array da creare");
@@ -73,6 +82,8 @@ compileArray(userArray);
 
 int[] userArraySquare = elevaArrayAlQuadrato(userArray);
 
+//Stampiamo su console tutti i risultati delle funzioni.
+
 Console.WriteLine("Array originale: ");
 stampaArrayInteri(userArray);
 Console.WriteLine("Array con elementi al quadrato: ");
@@ -80,6 +91,11 @@ stampaArrayInteri(userArraySquare);
 Console.WriteLine("La somma degli elementi dell'array originale: ");
 numSum = sommaElementiArray(userArray);
 Console.WriteLine(numSum);
+Console.WriteLine("La somma degli elementi dell'array quadratico:");
+numSumSquare = sommaElementiArray(userArraySquare);
+Console.WriteLine(numSumSquare);
 Console.WriteLine("Il quadrato del primo elemento dell'array originale è: ");
 numSquare = Quadrato(userArray[0]);
 Console.WriteLine(numSquare);
+
+//Birb.
